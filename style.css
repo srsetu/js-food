@@ -1,0 +1,131 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Common */
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+img {
+    max-width: 100%;
+}
+.btn {
+    width: 192px;
+    height: 60px;
+    background-image: linear-gradient(to right, #fba24f, #ff1e1e);
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+}
+h2 {
+    color: #707070;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+/* Hero Section */
+.hero {
+    display: flex;
+    margin-bottom: 200px;
+}
+.hero__text {
+    margin-top: 200px;
+    padding: 60px;
+    flex: 1;
+}
+.hero__title {
+    font-size: 60px;
+    color: #575757;
+    margin-bottom: 40px;
+}
+.hero__title--highlight {
+    color: #fba24f;
+}
+.hero__description {
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #828282;
+    width: 70%;
+    line-height: 2rem;
+}
+.hero__img {
+    text-align: right;
+    flex: 1;
+    background-image: url(./images/shapes/Group\ 88.png);
+    background-repeat: no-repeat;
+    background-position: 89% 92%;
+}
+.hero__img img {
+    margin-top: 90px;
+}
+
+/* About Section */
+.about-section {
+    position: relative;
+    background-image: url(./images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 800px;
+    margin-bottom: 100px;
+}
+.about {
+    display: flex;
+    align-items: center;
+}
+.about > * {
+    flex: 1;
+}
+
+.about__img img {
+    position: absolute;
+    bottom: 0;
+    width: 400px;
+    left: 300px;
+}
+.about__text {
+    display: flex;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+}
+.about__description {
+    color: #18191f;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    width: 60%;
+    margin-bottom: 40px;
+}
+
+/* Recipe */
+
+.recipe__info > p {
+    width: 706px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #252525;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.recipe__info > h2 {
+    text-align: center;
+}
+.recipie-items {
+    display: flex;
+    gap: 50px;
+}
+.recipie-items > * {
+    flex: 1;
+}
