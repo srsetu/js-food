@@ -161,6 +161,8 @@ span.top-btn {
 }
 .about__img img {
     width: 40%;
+    position: relative;
+    top: -3px;
 }
 .about__text {
     display: flex;
